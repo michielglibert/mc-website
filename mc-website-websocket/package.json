@@ -1,0 +1,23 @@
+{
+  "name": "mc-website-websocket",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": "6.2.0"
+  },
+  "dependencies": {
+    "dotenv": "^5.0.1",
+    "express": "4.16.2",
+    "mysql": "^2.15.0",
+    "mysql-events": "0.0.11",
+    "socket.io": "2.0.4"
+  }
+}
